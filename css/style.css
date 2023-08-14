@@ -1,0 +1,84 @@
+/*font-link starts*/
+@font-face{
+	src: url(../fonts/rubik/rubik-bold.ttf);
+	font-family: rubik-bold;
+}
+@font-face{
+	src: url(../fonts/roboto/roboto-regular.ttf);
+	font-family: roboto-regular;
+}
+@font-face{
+	src: url(../fonts/poppins/poppins-bold.otf);
+	font-family: poppins-bold;
+}
+@font-face{
+	src: url(../fonts/poppins/poppins-medium.otf);
+	font-family: poppins-medium;
+}
+@font-face{
+	src: url(../fonts/poppins/poppins-regular.otf);
+	font-family: poppins-regular;
+}
+/*font-link ends*/
+/*common start*/
+body{
+	font-family: poppins-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 15px 0;
+}
+.c_nav{
+
+}
+.logo{
+	margin-left: 10px;
+}
+.logo-img{
+	max-width: 100%;
+      height: auto;
+}
+.logo-text{
+	color: #56548C;
+	font-family: rubik-bold;
+	font-size: 25px;
+	font-weight: 700;
+}
+.menu ul{
+
+}
+.menu ul li a{
+	padding: 0 25px !important;
+	color: #000000 !important;
+}
+.menu ul li a:hover{
+	color: #FD511A !important;
+}
+.btn_cm{
+	font-family: roboto-regular;
+	color: white !important;
+	background-color: #21B573;
+	border-radius: 33px;
+}
+.btn_cm:hover{
+	background-color: #FD511A;
+}
+.btn_sign{
+	margin-left: 15px;
+	padding: 12px 28px;
+}
+.btn-mod{
+	font-family: roboto-regular;
+	color: white !important;
+	background-color: #21B573;
+	border-radius: 33px;
+	border-style: none;
+}
+.btn-mod:hover{
+	background-color: #FD511A;
+}
+/*header end*/

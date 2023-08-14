@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-school</title>
+    <!-- css llinks -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="container-fluid" style="background-color:  #f0fff0;">
+     <div class="container">
+      <nav class="navbar navbar-expand-lg c_nav">
+      <div class="container-fluid px-0">
+        <!-- logo -->
+       <a class="navbar-brand logo" href="index.html">
+         <div class="row align-items-center">
+            <div class="col-md-4 col-4 px-0">
+                <img src="images/logo.png" alt="Image" class="img-fluid logo-img">
+            </div>
+          <div class="col-md-8 col-8 px-0">
+                <h1 class="logo-text mb-0">E-school</h1>
+          </div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nbc" aria-controls="nbc" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu -->
+        <div class="collapse navbar-collapse menu" id="nbc">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Others</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+        </ul>
+        <!-- Sign in -->
+        <button class="btn btn_cm btn_sign" data-bs-toggle="modal" data-bs-target="#static-bd" type="button" >Sign in</button>
+        <!-- modal -->
+        <div class="modal fade" id="static-bd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static-bdLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="static-bdLabel">Sign Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary btn-mod">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-mod" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary btn-mod">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+      </div>
+      </nav>
+    </div> 
+    </header>
+    <!-- header end -->
+
+
+
+
+    <!-- script links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
